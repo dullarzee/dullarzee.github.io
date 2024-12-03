@@ -5,3 +5,8 @@
 .font{
     font-size: 10px;
 }
+
+.fit{
+    width:100vw;
+    height:100vh;
+}
