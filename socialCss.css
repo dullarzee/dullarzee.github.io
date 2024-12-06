@@ -2,8 +2,6 @@
     width:376px;
     height:100%;
     background-color: hsl(0, 0%, 8%);
-    border:1px solid;
-    border-color: white;
     position:relative;
 }
 
@@ -185,6 +183,15 @@
     color:black;
 }
 
+.footer{
+    position:fixed;
+    top:90%;
+    left:60px;
+    font-size: 11px; 
+    
+    color:white;
+}
+
 @media only screen and (min-width: 768px){
     .body{
         width: 1350px;
@@ -240,6 +247,12 @@
     color:hsl(0, 0%, 70%);
     font-size: 10.5px;
     font-family: inter;
+}
+
+.footer{
+    position:fixed;
+    top:90%;
+    left:39%;
 }
 
 
